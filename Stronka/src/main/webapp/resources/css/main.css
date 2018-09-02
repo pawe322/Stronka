@@ -1,0 +1,27 @@
+html{
+   font-size: 1em;
+   color: f000;
+   font-family: Calibri;
+}
+
+h2{
+	color:red;
+}
+
+#foot{ 
+	text-align: right; 
+	padding: 5px; 
+	margin-top: 10px
+}
+
+#head{
+	text-align: center;
+	background: #ffffff; 
+	height: 60px; 
+	padding: 5px;
+}
+
+#spis{
+	text-align: center;
+	margin-right: 30px;
+}
