@@ -4,6 +4,10 @@
 	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
 	id="WebApp_ID" version="3.1">
 	<display-name>Paweł Pruszkowski</display-name>
+	<context-param>
+		<param-name>BootsFaces_USETHEME</param-name>
+		<param-value>cerulean</param-value>
+	</context-param>
 	<welcome-file-list>
 		<welcome-file>home</welcome-file>
 		<welcome-file>/WEB-INF/pages/index.jsp</welcome-file>
@@ -17,8 +21,4 @@
 		<servlet-name>Faces Servlet</servlet-name>
 		<url-pattern>*.jsf</url-pattern>
 	</servlet-mapping>
-	<context-param>
-		<param-name>BootsFaces_THEME</param-name>
-		<param-value>cerulean</param-value>
-	</context-param>
 </web-app>
